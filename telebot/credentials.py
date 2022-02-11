@@ -1,3 +1,7 @@
-bot_token = "here goes your acces token from BotFather"
-bot_user_name = "the username you entered"
-URL = "https://my-tele-bot-app.herokuapp.com/"
+import os
+
+bot_token = os.environ.get('BOT_TOKEN')
+bot_username = os.environ.get('BOT_USERNAME')
+URL = "bot_url"
+
+# bot-token = 
